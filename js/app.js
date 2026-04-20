@@ -25,30 +25,37 @@ function initApp() {
 }
 
 /**
- * Carga datos de ejemplo para demostración
+ * Carga los estudiantes del grupo ADSO-136
  */
 function loadSampleData() {
   const sampleStudents = [
-    { name: 'Carlos Martínez', group: 'ADSO-01' },
-    { name: 'María García', group: 'ADSO-01' },
-    { name: 'Juan Rodríguez', group: 'ADSO-01' },
-    { name: 'Ana López', group: 'ADSO-01' },
-    { name: 'Pedro Sánchez', group: 'ADSO-01' },
-    { name: 'Laura Hernández', group: 'ADSO-02' },
-    { name: 'Diego Torres', group: 'ADSO-02' },
-    { name: 'Valentina Ramírez', group: 'ADSO-02' },
-    { name: 'Santiago Morales', group: 'ADSO-02' },
-    { name: 'Camila Flores', group: 'ADSO-02' },
-    { name: 'Andrés Castro', group: 'ADSO-03' },
-    { name: 'Isabella Vargas', group: 'ADSO-03' },
-    { name: 'Mateo Mendoza', group: 'ADSO-03' },
-    { name: 'Sofía Rojas', group: 'ADSO-03' },
-    { name: 'Daniel Jiménez', group: 'ADSO-03' },
+    { name: 'Alisson Paola Jaramillo Echeverry', group: 'ADSO-136' },
+    { name: 'Carlos Andrés Zuluaga Atehortua', group: 'ADSO-136' },
+    { name: 'Daniela Zapata López', group: 'ADSO-136' },
+    { name: 'David Antonio Pescador Durán', group: 'ADSO-136' },
+    { name: 'David Buendia Ruiz', group: 'ADSO-136' },
+    { name: 'Eric Daniel Barreto Chavez', group: 'ADSO-136' },
+    { name: 'Jhoan Steven Murillo García', group: 'ADSO-136' },
+    { name: 'Jhon Alejandro Patiño Agudelo', group: 'ADSO-136' },
+    { name: 'Juan Camilo Valencia Rey', group: 'ADSO-136' },
+    { name: 'Juan Carlos Combita Sandoval', group: 'ADSO-136' },
+    { name: 'Juan David Ferrer Castillo', group: 'ADSO-136' },
+    { name: 'Juan José Santamaria Muñoz', group: 'ADSO-136' },
+    { name: 'Julián David Flórez Vera', group: 'ADSO-136' },
+    { name: 'Maria Fernanda Huertas Montes', group: 'ADSO-136' },
+    { name: 'Nelson Fabián Gallego Sánchez', group: 'ADSO-136' },
+    { name: 'Santiago Moreno Piedrahita', group: 'ADSO-136' },
+    { name: 'Santiago Palacio Tovar', group: 'ADSO-136' },
+    { name: 'Santiago Tovar Zambrano', group: 'ADSO-136' },
+    { name: 'Sebastian Ortega Barrero', group: 'ADSO-136' },
+    { name: 'Stiven Andrés Robles Galán', group: 'ADSO-136' },
+    { name: 'Valeria Arcila Hernández', group: 'ADSO-136' },
+    { name: 'Valeria Becerra Giraldo', group: 'ADSO-136' },
   ];
 
   sampleStudents.forEach(s => addStudent(s.name, s.group));
   renderAll();
-  showToast('Se cargaron estudiantes de ejemplo. ¡Puedes modificarlos!', 'info');
+  showToast('Se cargaron los 22 estudiantes del grupo ADSO-136.', 'info');
 }
 
 // === BINDEO DE EVENTOS ===
